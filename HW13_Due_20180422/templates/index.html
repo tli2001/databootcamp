@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mission to Mars</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="jumbotron text-center">
+      <h1>Mission to Mars</h1>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Get Latest Mars Data</a></p>
+    </div>
+
+    <!-- Mars News Articles -->
+    <div class="row" id="mars-news">
+      <div class="col-md-12">
+        <h4 class="heading">{{listings.price}} {{listings.headline}}</h4>
+        <small>{{listings.hood}}</small>
+      </div>
+    </div>
+    <!-- Featured Mars Image -->
+    <div class="row" id="mars-image">
+      <div class="col-md-8">
+        <h4 class="heading">{{listings.headline}}</h4>
+        <small>{{listings.hood}}</small>
+      </div>
+    </div>
+    <!-- Mars Weather -->
+    <div class="row" id="mars-weather">
+      <div class="col-md-4">
+        <h4 class="heading">{{listings.price}} {{listings.headline}}</h4>
+        <small>{{listings.para}}</small>
+      </div>
+    </div>
+    <!-- Mars Facts -->
+    <div class="row" id="mars-facts">
+      <div class="col-md-4">
+        <h4 class="heading">{{listings.price}} {{listings.headline}}</h4>
+        <small>{{listings.para}}</small>
+      </div>
+    </div>
+    <!-- Mars Hemispheres -->
+    <div class="row" id="mars-hemi">
+      <div class="col-md-12">
+        <h4 class="heading">{{listings.price}} {{listings.headline}}</h4>
+        <small>{{listings.hood}}</small>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
