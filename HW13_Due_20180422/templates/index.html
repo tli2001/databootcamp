@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <!-- Tony's Mission to Mars Page -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -49,13 +50,45 @@
     <table class="table" id="mars-facts" border=1>
       <h4 class="heading">Mars Facts</h4>
         <tr>
-          <th> {{mars_data['facts']['Value']}} </th>
-          <td> {{mars_data['facts']['Value']}} </td>
+          <th>Equatorial Diameter:</th>
+          <td>{{mars_data['facts']['Value']['Equatorial Diameter:']}}</td>
         </tr>
         <tr>
-          <th> {{mars_data['facts']['Value']}} </th>
-          <td> {{mars_data['facts']['Value']}} </td>
+          <th>Polar Diameter:</th>
+          <td>{{mars_data['facts']['Value']['Polar Diameter:']}}</td>
         </tr>
+        <tr>
+            <th>Equatorial Diameter:</th>
+            <td>{{mars_data['facts']['Value']['Equatorial Diameter:']}}</td>
+          </tr>
+          <tr>
+              <th>Mass:</th>
+              <td>{{mars_data['facts']['Value']['Mass:']}}</td>
+            </tr>
+            <tr>
+                <th>Moons:</th>
+                <td>{{mars_data['facts']['Value']['Moons:']}}</td>
+              </tr>
+              <tr>
+                  <th>Orbit Distance:</th>
+                  <td>{{mars_data['facts']['Value']['Orbit Distance:']}}</td>
+                </tr>
+                <tr>
+                    <th>Orbit Period:</th>
+                    <td>{{mars_data['facts']['Value']['Orbit Period:']}}</td>
+                  </tr>
+                  <tr>
+                      <th>Surface Temperature:</th>
+                      <td>{{mars_data['facts']['Value']['Surface Temperature:']}}</td>
+                    </tr>
+                    <tr>
+                        <th>First Record:</th>
+                        <td>{{mars_data['facts']['Value']['First Record:']}}</td>
+                      </tr>
+                      <tr>
+                          <th>Recorded By:</th>
+                          <td>{{mars_data['facts']['Value']['Recorded By:']}}</td>
+                        </tr>
     </table>
     <!-- Mars Hemispheres -->
     <div class="row" id="mars-hemi">
@@ -64,19 +97,19 @@
       </div>
       <div class="col-md-6">
         <medium>{{mars_data['hemi'][0]['title']}}</medium>
-        <img src={{mars_data['hemi'][0]['img_url']}} width="600">
+        <img src={{mars_data['hemi'][0]['img_url']}} width="580">
       </div>
       <div class="col-md-6">
         <medium>{{mars_data['hemi'][1]['title']}}</medium>
-        <img src={{mars_data['hemi'][1]['img_url']}} width="600">
+        <img src={{mars_data['hemi'][1]['img_url']}} width="580">
       </div>
       <div class="col-md-6">
         <medium>{{mars_data['hemi'][2]['title']}}</medium>
-        <img src={{mars_data['hemi'][2]['img_url']}} width="600">
+        <img src={{mars_data['hemi'][2]['img_url']}} width="580">
       </div>
       <div class="col-md-6">
         <medium>{{mars_data['hemi'][3]['title']}}</medium>
-        <img src={{mars_data['hemi'][3]['img_url']}} width="600">
+        <img src={{mars_data['hemi'][3]['img_url']}} width="580">
       </div>
     </div>
   </div>
