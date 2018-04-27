@@ -1,5 +1,10 @@
 .form-control {
   display: inline-block;
+  color: silver;
   width: 250px;
   margin-top: 50px;
+}
+
+body {
+  background-color: lightslategray;
 }
