@@ -5,6 +5,26 @@
   margin-top: 50px;
 }
 
-body {
-  background-color: lightslategray;
+.page-header {
+  text-indent: 50px;
 }
+
+.btn-default {
+  color: darkslateblue;
+  background: lightslategray;
+}
+
+body {
+  background-color: darkslateblue;
+  color: darkgray
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: whitesmoke;
+ }
+
+ .table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+   background-color: darkslateblue;
+ }
